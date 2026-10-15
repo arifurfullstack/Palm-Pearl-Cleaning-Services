@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-forest: #14281D;
+    --brand-forest-dark: #0D1B13;
+    --brand-forest-light: #213D2D;
+    --brand-gold: #C89B53;
+    --brand-gold-light: #DFBA73;
+    --brand-gold-dark: #9D7433;
+    --brand-sand: #F4EFE6;
+    --brand-ivory: #FAF8F5;
+    --brand-pearl: #FFFFFF;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1C2A22;
+    background-color: #FAF8F5;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-script {
+    font-family: 'Great Vibes', cursive;
+  }
+}
+
+/* Custom aesthetic effects */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #DFBA73 0%, #C89B53 50%, #A87D38 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(to right, rgba(200, 155, 83, 0.2), rgba(200, 155, 83, 0.8), rgba(200, 155, 83, 0.2)) 1;
+}
+
+.subtle-mesh-pattern {
+  background-color: #FAF8F5;
+  background-image: radial-gradient(rgba(200, 155, 83, 0.08) 1px, transparent 0);
+  background-size: 28px 28px;
+}
+
+.dark-mesh-pattern {
+  background-color: #14281D;
+  background-image: radial-gradient(rgba(200, 155, 83, 0.12) 1px, transparent 0);
+  background-size: 32px 32px;
+}

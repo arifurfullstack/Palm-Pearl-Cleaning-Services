@@ -1,0 +1,8 @@
+{
+  "name": "Palm & Pearl Cleaning Services",
+  "description": "Premier residential, commercial, and post-construction cleaning services in Cape Coral, Fort Myers, and Southwest Florida. Pristine spaces, timeless care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

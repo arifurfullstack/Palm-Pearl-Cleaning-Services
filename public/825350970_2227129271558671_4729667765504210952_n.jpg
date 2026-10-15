@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <radialGradient id="bgG" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F7F4EE"/>
+    </radialGradient>
+    <linearGradient id="goldG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DFBA73"/>
+      <stop offset="50%" stop-color="#C89B53"/>
+      <stop offset="100%" stop-color="#9E7634"/>
+    </linearGradient>
+    <radialGradient id="pearlShine" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F5F0E6"/>
+      <stop offset="100%" stop-color="#D8C9B4"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#14281D" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1000" fill="url(#bgG)"/>
+
+  <!-- Outer Emblem Gold Ring -->
+  <g transform="translate(500, 260)">
+    <circle cx="0" cy="0" r="185" fill="none" stroke="url(#goldG)" stroke-width="4.5"/>
+    <circle cx="0" cy="0" r="180" fill="none" stroke="#C89B53" stroke-width="1" stroke-opacity="0.4"/>
+    
+    <!-- Sparkles -->
+    <path d="M 120,-110 Q 120,-85 145,-85 Q 120,-85 120,-60 Q 120,-85 95,-85 Q 120,-85 120,-110 Z" fill="url(#goldG)"/>
+    <path d="M 155,-55 Q 155,-40 170,-40 Q 155,-40 155,-25 Q 155,-40 140,-40 Q 155,-40 155,-55 Z" fill="url(#goldG)"/>
+
+    <!-- Palm Tree on Left -->
+    <g transform="translate(-105, 40) scale(0.85)">
+      <!-- Trunk -->
+      <path d="M 10,80 Q -15,10 -35,-80 Q -25,-80 -5,80 Z" fill="#6B4B27" stroke="#4A341B" stroke-width="1.5"/>
+      <path d="M 3,60 Q -12,10 -28,-60" stroke="#DFBA73" stroke-width="1.5" fill="none" stroke-opacity="0.6"/>
+      <!-- Fronds -->
+      <path d="M -35,-80 Q -95,-120 -115,-70 Q -80,-95 -35,-80" fill="#1E3D2B"/>
+      <path d="M -35,-80 Q -70,-145 -40,-155 Q -45,-120 -35,-80" fill="#254D37"/>
+      <path d="M -35,-80 Q -10,-160 20,-140 Q 0,-120 -35,-80" fill="#1E3D2B"/>
+      <path d="M -35,-80 Q 25,-120 45,-75 Q 10,-95 -35,-80" fill="#2A593F"/>
+      <path d="M -35,-80 Q -50,-65 -85,-45 Q -65,-65 -35,-80" fill="#1A3324"/>
+    </g>
+
+    <!-- Buildings & Scaffolding on Right -->
+    <g transform="translate(60, 20) scale(0.9)">
+      <rect x="0" y="-80" width="35" height="130" fill="#8C9A91" opacity="0.85"/>
+      <rect x="35" y="-55" width="30" height="105" fill="#6B7D71" opacity="0.9"/>
+      <!-- Scaffolding lines -->
+      <line x1="35" y1="-55" x2="65" y2="-25" stroke="url(#goldG)" stroke-width="1.5"/>
+      <line x1="65" y1="-55" x2="35" y2="-25" stroke="url(#goldG)" stroke-width="1.5"/>
+      <line x1="35" y1="-25" x2="65" y2="5" stroke="url(#goldG)" stroke-width="1.5"/>
+      <line x1="65" y1="-25" x2="35" y2="5" stroke="url(#goldG)" stroke-width="1.5"/>
+      <line x1="35" y1="5" x2="65" y2="35" stroke="url(#goldG)" stroke-width="1.5"/>
+      <line x1="65" y1="5" x2="35" y2="35" stroke="url(#goldG)" stroke-width="1.5"/>
+      <!-- Windows -->
+      <line x1="8" y1="-70" x2="27" y2="-70" stroke="#FFFFFF" stroke-width="1.5"/>
+      <line x1="8" y1="-55" x2="27" y2="-55" stroke="#FFFFFF" stroke-width="1.5"/>
+      <line x1="8" y1="-40" x2="27" y2="-40" stroke="#FFFFFF" stroke-width="1.5"/>
+      <line x1="8" y1="-25" x2="27" y2="-25" stroke="#FFFFFF" stroke-width="1.5"/>
+      <line x1="8" y1="-10" x2="27" y2="-10" stroke="#FFFFFF" stroke-width="1.5"/>
+    </g>
+
+    <!-- P & P Monogram -->
+    <!-- First P (Forest Green) -->
+    <text x="-48" y="25" font-family="'Cormorant Garamond', Georgia, serif" font-size="165" font-weight="700" fill="#14281D" filter="url(#shadow)">P</text>
+    <!-- Second P (Gold) -->
+    <text x="32" y="70" font-family="'Cormorant Garamond', Georgia, serif" font-size="165" font-weight="700" fill="url(#goldG)" filter="url(#shadow)">P</text>
+    <!-- Ampersand Linking Them -->
+    <text x="-12" y="55" font-family="'Great Vibes', cursive" font-size="120" font-weight="bold" fill="url(#goldG)">&amp;</text>
+
+    <!-- Pearl in Oyster Shell -->
+    <g transform="translate(-85, 75) scale(0.9)">
+      <!-- Lower shell -->
+      <path d="M 0,30 Q 30,65 75,55 Q 90,30 80,10 Q 40,25 0,30 Z" fill="#E8D5BE" stroke="#9E7634" stroke-width="1.5"/>
+      <!-- Upper open shell -->
+      <path d="M 10,18 Q 40,-35 80,-25 Q 90,5 75,22 Q 45,5 10,18 Z" fill="#F4EFE6" stroke="#9E7634" stroke-width="1.5"/>
+      <!-- Shell ribs -->
+      <line x1="20" y1="18" x2="65" y2="-15" stroke="#C89B53" stroke-width="1" opacity="0.6"/>
+      <line x1="35" y1="20" x2="72" y2="-5" stroke="#C89B53" stroke-width="1" opacity="0.6"/>
+      <!-- Pearl -->
+      <circle cx="58" cy="22" r="16" fill="url(#pearlShine)" filter="url(#shadow)"/>
+      <circle cx="53" cy="17" r="4" fill="#FFFFFF" opacity="0.8"/>
+    </g>
+
+    <!-- Wave base -->
+    <path d="M -150,110 Q -60,95 20,120 Q 90,140 160,115" fill="none" stroke="url(#goldG)" stroke-width="3"/>
+    <path d="M -130,122 Q -40,110 40,132 Q 100,150 170,128" fill="none" stroke="#1E3D2B" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="500" y="565" font-family="'Cormorant Garamond', Georgia, serif" font-size="78" font-weight="700" letter-spacing="10" fill="#14281D" text-anchor="middle">
+    PALM <tspan fill="url(#goldG)">&amp;</tspan> PEARL
+  </text>
+  
+  <text x="500" y="620" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="600" letter-spacing="18" fill="#14281D" text-anchor="middle">
+    CLEANING SERVICES
+  </text>
+
+  <!-- Green Pill Badge -->
+  <g transform="translate(140, 650)">
+    <rect x="0" y="0" width="720" height="46" rx="23" fill="#14281D"/>
+    <text x="360" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="17" font-weight="700" letter-spacing="4" fill="#DFBA73" text-anchor="middle">
+      COMMERCIAL   •   POST CONSTRUCTION   •   RESIDENTIAL
+    </text>
+  </g>
+
+  <!-- 4 Feature Badges Section -->
+  <g transform="translate(80, 740)">
+    <!-- Column 1: Commercial -->
+    <g transform="translate(45, 0)">
+      <circle cx="65" cy="40" r="32" fill="none" stroke="#14281D" stroke-width="2"/>
+      <!-- Building Icon -->
+      <rect x="52" y="22" width="26" height="34" fill="none" stroke="#14281D" stroke-width="2"/>
+      <line x1="58" y1="28" x2="62" y2="28" stroke="#14281D" stroke-width="1.5"/>
+      <line x1="68" y1="28" x2="72" y2="28" stroke="#14281D" stroke-width="1.5"/>
+      <line x1="58" y1="36" x2="62" y2="36" stroke="#14281D" stroke-width="1.5"/>
+      <line x1="68" y1="36" x2="72" y2="36" stroke="#14281D" stroke-width="1.5"/>
+      <text x="65" y="95" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" letter-spacing="1" fill="#14281D" text-anchor="middle">COMMERCIAL</text>
+      <text x="65" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" letter-spacing="1" fill="#14281D" text-anchor="middle">CLEANING</text>
+      <text x="65" y="136" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#687970" text-anchor="middle">OFFICES • RETAIL</text>
+      <text x="65" y="152" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#687970" text-anchor="middle">FACILITIES</text>
+    </g>
+
+    <!-- Divider 1 -->
+    <line x1="220" y1="20" x2="220" y2="150" stroke="#C89B53" stroke-width="1" stroke-opacity="0.4"/>
+
+    <!-- Column 2: Post Construction -->
+    <g transform="translate(250, 0)">
+      <circle cx="65" cy="40" r="32" fill="none" stroke="#14281D" stroke-width="2"/>
+      <!-- Hardhat Icon -->
+      <path d="M 45,45 Q 65,22 85,45 Z" fill="none" stroke="#14281D" stroke-width="2"/>
+      <line x1="40" y1="45" x2="90" y2="45" stroke="#14281D" stroke-width="2"/>
+      <text x="65" y="95" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#14281D" text-anchor="middle">POST CONSTRUCTION</text>
+      <text x="65" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#14281D" text-anchor="middle">CLEANING</text>
+      <text x="65" y="136" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#687970" text-anchor="middle">FINAL CLEAN • BUILDS</text>
+      <text x="65" y="152" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#687970" text-anchor="middle">RENOVATIONS</text>
+    </g>
+
+    <!-- Divider 2 -->
+    <line x1="430" y1="20" x2="430" y2="150" stroke="#C89B53" stroke-width="1" stroke-opacity="0.4"/>
+
+    <!-- Column 3: Residential -->
+    <g transform="translate(460, 0)">
+      <circle cx="65" cy="40" r="32" fill="none" stroke="#14281D" stroke-width="2"/>
+      <!-- Home Icon -->
+      <path d="M 48,45 L 65,30 L 82,45 L 82,56 L 48,56 Z" fill="none" stroke="#14281D" stroke-width="2"/>
+      <text x="65" y="95" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" letter-spacing="1" fill="#14281D" text-anchor="middle">RESIDENTIAL</text>
+      <text x="65" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" letter-spacing="1" fill="#14281D" text-anchor="middle">CLEANING</text>
+      <text x="65" y="136" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#687970" text-anchor="middle">HOMES • APARTMENTS</text>
+      <text x="65" y="152" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#687970" text-anchor="middle">MOVE-IN / OUT</text>
+    </g>
+
+    <!-- Divider 3 -->
+    <line x1="640" y1="20" x2="640" y2="150" stroke="#C89B53" stroke-width="1" stroke-opacity="0.4"/>
+
+    <!-- Column 4: Final Clean Detailing -->
+    <g transform="translate(670, 0)">
+      <circle cx="65" cy="40" r="32" fill="none" stroke="#14281D" stroke-width="2"/>
+      <!-- Sparkle Window Icon -->
+      <rect x="48" y="26" width="34" height="28" fill="none" stroke="#14281D" stroke-width="2"/>
+      <line x1="65" y1="26" x2="65" y2="54" stroke="#14281D" stroke-width="1.5"/>
+      <line x1="48" y1="40" x2="82" y2="40" stroke="#14281D" stroke-width="1.5"/>
+      <text x="65" y="95" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#14281D" text-anchor="middle">FINAL CLEAN</text>
+      <text x="65" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#14281D" text-anchor="middle">DETAILING</text>
+      <text x="65" y="136" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#687970" text-anchor="middle">PRECISION • QUALITY</text>
+      <text x="65" y="152" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#687970" text-anchor="middle">SHOWROOM READY</text>
+    </g>
+  </g>
+
+  <!-- Bottom Tagline -->
+  <g transform="translate(500, 955)">
+    <path d="M -230, -5 Q -230,0 -240,0 Q -230,0 -230,5 Q -230,0 -220,0 Q -230,0 -230,-5 Z" fill="url(#goldG)"/>
+    <text x="0" y="3" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="700" letter-spacing="8" fill="#14281D" text-anchor="middle">
+      PRISTINE SPACES. TIMELESS CARE.
+    </text>
+    <path d="M 230, -5 Q 230,0 220,0 Q 230,0 230,5 Q 230,0 240,0 Q 230,0 230,-5 Z" fill="url(#goldG)"/>
+  </g>
+</svg>

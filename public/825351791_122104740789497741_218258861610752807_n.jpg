@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" width="1000" height="1500">
+  <defs>
+    <linearGradient id="postBg" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#FAF8F5"/>
+      <stop offset="100%" stop-color="#EDE6D8"/>
+    </linearGradient>
+    <linearGradient id="postGold" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C788"/>
+      <stop offset="50%" stop-color="#C89B53"/>
+      <stop offset="100%" stop-color="#8E6726"/>
+    </linearGradient>
+    <filter id="boxShadow">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="1500" fill="url(#postBg)"/>
+
+  <!-- Top Logo & Tagline -->
+  <g transform="translate(50, 40)">
+    <circle cx="65" cy="65" r="50" fill="none" stroke="url(#postGold)" stroke-width="2.5"/>
+    <text x="65" y="75" font-family="'Cormorant Garamond', serif" font-size="38" font-weight="bold" fill="#14281D" text-anchor="middle">P&amp;P</text>
+    <text x="135" y="55" font-family="'Cormorant Garamond', Georgia, serif" font-size="38" font-weight="700" letter-spacing="4" fill="#14281D">PALM &amp; PEARL</text>
+    <text x="135" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" letter-spacing="8" fill="#14281D">CLEANING SERVICES</text>
+    <rect x="0" y="100" width="460" height="26" rx="13" fill="#14281D"/>
+    <text x="230" y="117" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#DFBA73" text-anchor="middle">COMMERCIAL • POST CONSTRUCTION • RESIDENTIAL</text>
+    <text x="230" y="145" font-family="'Cormorant Garamond', serif" font-size="15" font-weight="600" letter-spacing="4" fill="#8C734B" text-anchor="middle">✦ PRISTINE SPACES. TIMELESS CARE. ✦</text>
+  </g>
+
+  <!-- Top Right Luxury Home Graphic -->
+  <g transform="translate(560, 40)" filter="url(#boxShadow)">
+    <rect x="0" y="0" width="390" height="230" rx="8" fill="#DCE7E1"/>
+    <!-- Modern Florida home architectural lines -->
+    <rect x="30" y="30" width="330" height="170" fill="#FFFFFF" rx="4"/>
+    <line x1="30" y1="120" x2="360" y2="120" stroke="#DFBA73" stroke-width="3"/>
+    <!-- Sparkling ocean sliding glass door -->
+    <rect x="60" y="50" width="100" height="140" fill="#86BBD8" opacity="0.6"/>
+    <rect x="180" y="50" width="150" height="140" fill="#86BBD8" opacity="0.6"/>
+    <text x="195" y="218" font-family="'Great Vibes', cursive" font-size="28" fill="#14281D" text-anchor="middle">From Construction to Completion...</text>
+    <text x="195" y="235" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" letter-spacing="2" fill="#C89B53" text-anchor="middle">WE MAKE IT SHINE.</text>
+  </g>
+
+  <!-- Big Emerald Banner Header -->
+  <g transform="translate(50, 220)">
+    <rect x="0" y="0" width="480" height="90" rx="8" fill="#14281D" filter="url(#boxShadow)"/>
+    <text x="240" y="35" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" letter-spacing="3" fill="#DFBA73" text-anchor="middle">POST CONSTRUCTION</text>
+    <text x="240" y="78" font-family="'Great Vibes', cursive" font-size="48" fill="#FFFFFF" text-anchor="middle">Cleaning</text>
+    <text x="240" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#14281D" text-anchor="middle">BUILDER &amp; CONTRACTOR SERVICES</text>
+  </g>
+
+  <!-- Gold Pill Tag: Reliable • Professional • Detail-Oriented • On Time -->
+  <g transform="translate(560, 290)">
+    <rect x="0" y="0" width="390" height="42" rx="21" fill="url(#postGold)"/>
+    <text x="195" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" letter-spacing="1" fill="#14281D" text-anchor="middle">
+      RELIABLE • PROFESSIONAL • ON TIME
+    </text>
+    <text x="195" y="70" font-family="'Great Vibes', cursive" font-size="34" fill="#14281D" text-anchor="middle">
+      Your Project Deserves a Perfect Finish.
+    </text>
+  </g>
+
+  <!-- Intro Copy -->
+  <g transform="translate(50, 370)">
+    <rect x="0" y="0" width="480" height="120" rx="8" fill="#FFFFFF" opacity="0.9" filter="url(#boxShadow)"/>
+    <text x="20" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="500" fill="#14281D">
+      The construction is complete — now it's time to make it shine.
+    </text>
+    <text x="20" y="56" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="400" fill="#4B5E54">
+      Palm &amp; Pearl Cleaning Services provides professional post-construction
+    </text>
+    <text x="20" y="78" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="400" fill="#4B5E54">
+      cleaning for home builders, general contractors, remodeling companies
+    </text>
+    <text x="20" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#14281D">
+      and commercial construction projects across Southwest Florida.
+    </text>
+  </g>
+
+  <!-- 10-Point Checklist Section -->
+  <g transform="translate(50, 520)">
+    <rect x="0" y="0" width="900" height="340" rx="10" fill="#FFFFFF" filter="url(#boxShadow)"/>
+    <text x="40" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" letter-spacing="2" fill="#14281D">
+      OUR POST-CONSTRUCTION CLEANING SERVICES INCLUDE:
+    </text>
+    <line x1="40" y1="55" x2="860" y2="55" stroke="url(#postGold)" stroke-width="1.5"/>
+
+    <!-- Left Column Items -->
+    <g transform="translate(40, 80)">
+      <g transform="translate(0, 0)">
+        <circle cx="12" cy="12" r="10" fill="url(#postGold)"/>
+        <text x="12" y="16" font-size="12" fill="#FFFFFF" text-anchor="middle">✓</text>
+        <text x="32" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#14281D">Removal of construction dust and debris</text>
+      </g>
+      <g transform="translate(0, 45)">
+        <circle cx="12" cy="12" r="10" fill="url(#postGold)"/>
+        <text x="12" y="16" font-size="12" fill="#FFFFFF" text-anchor="middle">✓</text>
+        <text x="32" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#14281D">Detailed cleaning of floors, baseboards, doors &amp; trim</text>
+      </g>
+      <g transform="translate(0, 90)">
+        <circle cx="12" cy="12" r="10" fill="url(#postGold)"/>
+        <text x="12" y="16" font-size="12" fill="#FFFFFF" text-anchor="middle">✓</text>
+        <text x="32" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#14281D">Interior window and glass cleaning</text>
+      </g>
+      <g transform="translate(0, 135)">
+        <circle cx="12" cy="12" r="10" fill="url(#postGold)"/>
+        <text x="12" y="16" font-size="12" fill="#FFFFFF" text-anchor="middle">✓</text>
+        <text x="32" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#14281D">Cleaning of cabinets, countertops and fixtures</text>
+      </g>
+      <g transform="translate(0, 180)">
+        <circle cx="12" cy="12" r="10" fill="url(#postGold)"/>
+        <text x="12" y="16" font-size="12" fill="#FFFFFF" text-anchor="middle">✓</text>
+        <text x="32" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#14281D">Removal of dust from walls, ceilings, vents &amp; surfaces</text>
+      </g>
+    </g>
+
+    <!-- Right Column Items -->
+    <g transform="translate(470, 80)">
+      <g transform="translate(0, 0)">
+        <circle cx="12" cy="12" r="10" fill="url(#postGold)"/>
+        <text x="12" y="16" font-size="12" fill="#FFFFFF" text-anchor="middle">✓</text>
+        <text x="32" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#14281D">Bathroom and kitchen deep cleaning</text>
+      </g>
+      <g transform="translate(0, 45)">
+        <circle cx="12" cy="12" r="10" fill="url(#postGold)"/>
+        <text x="12" y="16" font-size="12" fill="#FFFFFF" text-anchor="middle">✓</text>
+        <text x="32" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#14281D">Cleaning around appliances and built-ins</text>
+      </g>
+      <g transform="translate(0, 90)">
+        <circle cx="12" cy="12" r="10" fill="url(#postGold)"/>
+        <text x="12" y="16" font-size="12" fill="#FFFFFF" text-anchor="middle">✓</text>
+        <text x="32" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#14281D">Final detail cleaning before client walkthroughs</text>
+      </g>
+      <g transform="translate(0, 135)">
+        <circle cx="12" cy="12" r="10" fill="url(#postGold)"/>
+        <text x="12" y="16" font-size="12" fill="#FFFFFF" text-anchor="middle">✓</text>
+        <text x="32" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#14281D">Move-in / final presentation cleaning</text>
+      </g>
+      <g transform="translate(0, 180)">
+        <circle cx="12" cy="12" r="10" fill="url(#postGold)"/>
+        <text x="12" y="16" font-size="12" fill="#FFFFFF" text-anchor="middle">✓</text>
+        <text x="32" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#14281D">Recurring cleaning services after project completion</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Contractor Value Badges -->
+  <g transform="translate(50, 890)">
+    <!-- 1 -->
+    <g transform="translate(30, 0)">
+      <circle cx="70" cy="50" r="32" fill="none" stroke="url(#postGold)" stroke-width="2"/>
+      <text x="70" y="58" font-size="24" text-anchor="middle">🤝</text>
+      <text x="70" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#14281D" text-anchor="middle">TRUSTED PARTNER</text>
+      <text x="70" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#586A61" text-anchor="middle">FOR BUILDERS &amp; GC</text>
+    </g>
+    <!-- 2 -->
+    <g transform="translate(260, 0)">
+      <circle cx="70" cy="50" r="32" fill="none" stroke="url(#postGold)" stroke-width="2"/>
+      <text x="70" y="58" font-size="24" text-anchor="middle">🛡</text>
+      <text x="70" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#14281D" text-anchor="middle">INSURED &amp; LICENSED</text>
+      <text x="70" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#586A61" text-anchor="middle">FOR PEACE OF MIND</text>
+    </g>
+    <!-- 3 -->
+    <g transform="translate(490, 0)">
+      <circle cx="70" cy="50" r="32" fill="none" stroke="url(#postGold)" stroke-width="2"/>
+      <text x="70" y="58" font-size="24" text-anchor="middle">📅</text>
+      <text x="70" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#14281D" text-anchor="middle">FLEXIBLE TIMELINES</text>
+      <text x="70" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#586A61" text-anchor="middle">MEET TIGHT DEADLINES</text>
+    </g>
+    <!-- 4 -->
+    <g transform="translate(720, 0)">
+      <circle cx="70" cy="50" r="32" fill="none" stroke="url(#postGold)" stroke-width="2"/>
+      <text x="70" y="58" font-size="24" text-anchor="middle">💎</text>
+      <text x="70" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#14281D" text-anchor="middle">COMPETITIVE PRICING</text>
+      <text x="70" y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#586A61" text-anchor="middle">UNCOMPROMISING QUALITY</text>
+    </g>
+  </g>
+
+  <!-- Bottom Dark Green Bar & Call to Action -->
+  <g transform="translate(0, 1070)">
+    <rect x="0" y="0" width="1000" height="430" fill="#14281D"/>
+    
+    <text x="500" y="80" font-family="'Great Vibes', cursive" font-size="60" fill="#DFBA73" text-anchor="middle">
+      Let's Build a Clean Future Together.
+    </text>
+
+    <!-- Contacts -->
+    <g transform="translate(80, 140)">
+      <circle cx="40" cy="40" r="30" fill="#C89B53"/>
+      <text x="40" y="48" font-size="28" text-anchor="middle">📞</text>
+      <text x="90" y="35" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#DFBA73">CALL TODAY FOR A FREE ESTIMATE</text>
+      <text x="90" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="800" fill="#FFFFFF">239-295-4317</text>
+    </g>
+
+    <g transform="translate(80, 240)">
+      <circle cx="40" cy="40" r="30" fill="#C89B53"/>
+      <text x="40" y="48" font-size="28" text-anchor="middle">📍</text>
+      <text x="90" y="35" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#DFBA73">PRIMARY SERVICE REGION</text>
+      <text x="90" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Cape Coral, Fort Myers &amp; SW Florida</text>
+    </g>
+
+    <g transform="translate(680, 150)">
+      <circle cx="60" cy="60" r="50" fill="none" stroke="url(#postGold)" stroke-width="2"/>
+      <text x="60" y="68" font-family="'Cormorant Garamond', serif" font-size="32" font-weight="bold" fill="#DFBA73" text-anchor="middle">P&amp;P</text>
+      <text x="60" y="140" font-family="'Great Vibes', cursive" font-size="30" fill="#FFFFFF" text-anchor="middle">Cleaning Done Right.</text>
+    </g>
+  </g>
+</svg>

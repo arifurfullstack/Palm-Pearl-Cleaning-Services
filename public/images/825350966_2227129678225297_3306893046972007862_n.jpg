@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#4A90E2"/>
+      <stop offset="40%" stop-color="#87CEEB"/>
+      <stop offset="80%" stop-color="#D1EEFC"/>
+      <stop offset="100%" stop-color="#FAF8F5"/>
+    </linearGradient>
+    <linearGradient id="oceanGrad" x1="0" y1="0" x2="100%" y2="0">
+      <stop offset="0%" stop-color="#0E86D4"/>
+      <stop offset="50%" stop-color="#1DA1F2"/>
+      <stop offset="100%" stop-color="#0575E6"/>
+    </linearGradient>
+    <linearGradient id="poloGrad" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#1A2421"/>
+      <stop offset="100%" stop-color="#0E1613"/>
+    </linearGradient>
+    <radialGradient id="sunShine" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFFDF0"/>
+      <stop offset="40%" stop-color="#FFEAA7"/>
+      <stop offset="100%" stop-color="#FFA502" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Sky & Tropical Background -->
+  <rect width="1200" height="900" fill="url(#skyGrad)"/>
+  <!-- Sun glare -->
+  <circle cx="200" cy="150" r="220" fill="url(#sunShine)" opacity="0.35"/>
+  <!-- Ocean Horizon in distance -->
+  <rect x="0" y="240" width="1200" height="90" fill="url(#oceanGrad)" opacity="0.55"/>
+
+  <!-- Luxury Coastal Mansion Architecture -->
+  <g transform="translate(60, 100)" opacity="0.9">
+    <rect x="0" y="40" width="400" height="180" fill="#FFFFFF" rx="4"/>
+    <rect x="15" y="55" width="80" height="150" fill="#E8EEF5" rx="2"/>
+    <rect x="110" y="55" width="180" height="150" fill="#E8EEF5" rx="2"/>
+    <rect x="305" y="55" width="80" height="150" fill="#E8EEF5" rx="2"/>
+    <!-- Balconies & Pillars -->
+    <line x1="0" y1="120" x2="400" y2="120" stroke="#DFBA73" stroke-width="4"/>
+    <!-- Palm trees behind villa -->
+    <path d="M 450,180 Q 420,80 390,20" stroke="#5D4037" stroke-width="8" fill="none"/>
+    <circle cx="390" cy="20" r="50" fill="#2E7D32" opacity="0.8"/>
+    <path d="M 40,180 Q 20,80 0,30" stroke="#5D4037" stroke-width="8" fill="none"/>
+    <circle cx="0" cy="30" r="45" fill="#2E7D32" opacity="0.8"/>
+  </g>
+
+  <!-- Paver Driveway -->
+  <polygon points="0,520 1200,520 1200,900 0,900" fill="#D5CEC5"/>
+  <line x1="0" y1="600" x2="1200" y2="600" stroke="#B8AFA4" stroke-width="2" stroke-dasharray="12,12"/>
+  <line x1="0" y1="680" x2="1200" y2="680" stroke="#B8AFA4" stroke-width="2" stroke-dasharray="14,14"/>
+
+  <!-- Fleet of Branded Black SUVs in Background -->
+  <!-- SUV 3 (Furthest) -->
+  <g transform="translate(850, 310) scale(0.65)" opacity="0.85">
+    <path d="M 0,140 L 40,80 L 160,80 L 250,120 L 290,140 L 300,180 L 0,180 Z" fill="#1A1D20"/>
+    <circle cx="60" cy="180" r="28" fill="#333"/>
+    <circle cx="240" cy="180" r="28" fill="#333"/>
+  </g>
+  <!-- SUV 2 (Middle) -->
+  <g transform="translate(680, 290) scale(0.85)" opacity="0.95">
+    <path d="M 0,160 L 50,90 L 190,90 L 300,140 L 350,160 L 360,210 L 0,210 Z" fill="#14171A"/>
+    <!-- Gold Decal Graphic on Side -->
+    <path d="M 60,180 Q 150,150 250,175" stroke="#DFBA73" stroke-width="6" fill="none"/>
+    <circle cx="80" cy="210" r="34" fill="#222"/>
+    <circle cx="280" cy="210" r="34" fill="#222"/>
+    <text x="130" y="165" font-family="'Cormorant Garamond', serif" font-size="14" font-weight="bold" fill="#DFBA73">PALM &amp; PEARL</text>
+  </g>
+  <!-- SUV 1 (Closest Left) -->
+  <g transform="translate(-40, 240) scale(1.15)">
+    <path d="M 20,200 L 90,110 L 260,110 L 390,170 L 460,200 L 470,270 L 20,270 Z" fill="#0C0E10"/>
+    <!-- Deep Gold Decal Waves & Monogram -->
+    <path d="M 90,230 Q 200,190 340,225" stroke="#DFBA73" stroke-width="9" fill="none"/>
+    <path d="M 110,245 Q 220,205 360,240" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.8"/>
+    <!-- Logo on car side -->
+    <circle cx="200" cy="175" r="30" fill="none" stroke="#DFBA73" stroke-width="2"/>
+    <text x="200" y="182" font-family="'Cormorant Garamond', serif" font-size="20" font-weight="bold" fill="#DFBA73" text-anchor="middle">P&amp;P</text>
+    <text x="200" y="202" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#FFFFFF" text-anchor="middle">PALM &amp; PEARL</text>
+    <text x="200" y="214" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" font-weight="600" letter-spacing="1" fill="#DFBA73" text-anchor="middle">CLEANING SERVICES</text>
+    <circle cx="110" cy="270" r="44" fill="#1C1E20" stroke="#3A3F45" stroke-width="8"/>
+    <circle cx="390" cy="270" r="44" fill="#1C1E20" stroke="#3A3F45" stroke-width="8"/>
+  </g>
+
+  <!-- Foreground: Kayla and Co-Founder / Team -->
+  <g transform="translate(380, 110)" filter="url(#softGlow)">
+    <!-- Co-Founder (Left) -->
+    <g transform="translate(40, 40)">
+      <!-- Body / Branded Polo -->
+      <path d="M 40,320 Q 140,270 240,320 L 260,700 L 20,700 Z" fill="url(#poloGrad)"/>
+      <path d="M 120,290 L 160,290 L 155,380 L 125,380 Z" fill="#141E1A"/>
+      <!-- Gold Palm & Pearl Embroidery on Chest -->
+      <g transform="translate(180, 360) scale(0.55)">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="#DFBA73" stroke-width="2"/>
+        <text x="20" y="26" font-family="serif" font-size="18" font-weight="bold" fill="#DFBA73" text-anchor="middle">P&amp;P</text>
+      </g>
+      <!-- Head & Smile -->
+      <ellipse cx="140" cy="180" rx="65" ry="85" fill="#E8B896"/>
+      <!-- Beard & Hair -->
+      <path d="M 80,160 Q 140,80 200,160 Q 190,110 140,110 Q 90,110 80,160 Z" fill="#4A3423"/>
+      <path d="M 85,200 Q 140,275 195,200 Q 185,250 140,250 Q 95,250 85,200 Z" fill="#3D2B1D"/>
+      <!-- Bright Friendly Smile -->
+      <path d="M 115,225 Q 140,245 165,225" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Kayla (Right - Owner) -->
+    <g transform="translate(260, 160)">
+      <!-- Long Brunette Hair -->
+      <path d="M 70,160 Q 30,300 20,480 Q 80,500 130,460 Q 150,300 130,160 Z" fill="#2C1A11"/>
+      <!-- Body / Branded Polo -->
+      <path d="M 40,270 Q 110,240 180,270 L 195,600 L 25,600 Z" fill="url(#poloGrad)"/>
+      <!-- Gold Embroidery on Chest -->
+      <g transform="translate(130, 320) scale(0.5)">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="#DFBA73" stroke-width="2"/>
+        <text x="20" y="26" font-family="serif" font-size="18" font-weight="bold" fill="#DFBA73" text-anchor="middle">P&amp;P</text>
+      </g>
+      <!-- Head & Skin -->
+      <ellipse cx="110" cy="160" rx="50" ry="70" fill="#F0C3A5"/>
+      <!-- Long Hair Right Side -->
+      <path d="M 130,120 Q 190,260 210,480 Q 180,520 150,450 Q 150,280 130,120 Z" fill="#2C1A11"/>
+      <!-- Purple Reflective Aviator Sunglasses -->
+      <g transform="translate(75, 135)">
+        <ellipse cx="16" cy="15" rx="16" ry="14" fill="#7B2CBF" stroke="#DFBA73" stroke-width="2"/>
+        <ellipse cx="52" cy="15" rx="16" ry="14" fill="#9D4EDD" stroke="#DFBA73" stroke-width="2"/>
+        <line x1="32" y1="12" x2="36" y2="12" stroke="#DFBA73" stroke-width="2"/>
+        <!-- Reflection highlights -->
+        <line x1="8" y1="8" x2="22" y2="20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+        <line x1="44" y1="8" x2="58" y2="20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+      </g>
+      <!-- Warm Confident Smile -->
+      <path d="M 90,195 Q 110,215 130,195" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Elegant Bottom Overlay Badge -->
+  <g transform="translate(600, 830)">
+    <rect x="-350" y="-40" width="700" height="70" rx="35" fill="#14281D" opacity="0.94" stroke="#DFBA73" stroke-width="1.5"/>
+    <text x="0" y="2" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="700" fill="#DFBA73" text-anchor="middle">
+      KAYLA &amp; THE PALM &amp; PEARL FLEET
+    </text>
+    <text x="0" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#FFFFFF" text-anchor="middle">
+      SERVING CAPE CORAL, FORT MYERS &amp; SW FLORIDA ESTATES
+    </text>
+  </g>
+</svg>
