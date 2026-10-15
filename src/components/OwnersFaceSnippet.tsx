@@ -17,11 +17,11 @@ export const OwnersFaceSnippet: React.FC<OwnersFaceSnippetProps> = ({
       <div className={`inline-flex items-center gap-3 bg-white/10 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-[#DFBA73]/40 text-white text-xs ${className}`}>
         <div className="relative w-8 h-8 rounded-full overflow-hidden border border-[#DFBA73] shadow-xs flex-shrink-0 bg-white">
           <img
-            src="/images/cofounders-faces-crop.svg"
+            src="/images/upload/cofounders-faces-crop.svg"
             alt="Kayla & Co-Founder"
             className="w-full h-full object-cover"
             onError={(e) => {
-              (e.target as HTMLImageElement).src = '/825350966_2227129678225297_3306893046972007862_n.jpg';
+              (e.target as HTMLImageElement).src = '/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg';
             }}
             referrerPolicy="no-referrer"
           />
@@ -45,11 +45,11 @@ export const OwnersFaceSnippet: React.FC<OwnersFaceSnippetProps> = ({
         <div className="relative">
           <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border-2 border-[#C89B53] shadow-sm flex-shrink-0 bg-[#FAF8F5]">
             <img
-              src="/images/cofounders-faces-crop.svg"
+              src="/images/upload/cofounders-faces-crop.svg"
               alt="Kayla and Co-Founder face snippet"
               className="w-full h-full object-cover"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = '/825350966_2227129678225297_3306893046972007862_n.jpg';
+                (e.target as HTMLImageElement).src = '/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg';
               }}
               referrerPolicy="no-referrer"
             />

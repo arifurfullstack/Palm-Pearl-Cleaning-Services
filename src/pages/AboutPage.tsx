@@ -73,7 +73,7 @@ export const AboutPage: React.FC = () => {
             <div className="lg:col-span-5 flex flex-col items-center">
               <div className="relative rounded-2xl overflow-hidden border-2 border-[#C89B53]/40 shadow-2xl group bg-[#FAF8F5] max-w-sm w-full">
                 <img
-                  src="/842465995_122105284371497741_6757168991532059581_n.jpg"
+                  src="/images/upload/842465995_122105284371497741_6757168991532059581_n.jpg"
                   alt="Kayla - Owner of Palm & Pearl Cleaning Services"
                   className="w-full h-auto object-cover"
                   referrerPolicy="no-referrer"
@@ -82,7 +82,7 @@ export const AboutPage: React.FC = () => {
                   type="button"
                   onClick={() =>
                     openImageModal(
-                      '/842465995_122105284371497741_6757168991532059581_n.jpg',
+                      '/images/upload/842465995_122105284371497741_6757168991532059581_n.jpg',
                       'Meet the Owner — Kayla',
                       'Family Owned & Operated • Reliable & Trustworthy',
                       'Personal letter from Kayla: "I take pride in leading a company that treats every property like it\'s our own."'

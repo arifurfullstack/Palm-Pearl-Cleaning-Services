@@ -71,7 +71,7 @@ export const ServicesPage: React.FC = () => {
             <div className="lg:col-span-5 flex flex-col items-center">
               <div className="relative rounded-2xl overflow-hidden border border-[#C89B53]/40 shadow-xl group bg-[#FAF8F5] max-w-sm">
                 <img
-                  src="/844278059_122110127211497741_6854398682803496698_n.jpg"
+                  src="/images/upload/844278059_122110127211497741_6854398682803496698_n.jpg"
                   alt="Official Palm & Pearl Commercial Cleaning Flyer"
                   className="w-full h-auto object-cover"
                   referrerPolicy="no-referrer"
@@ -80,7 +80,7 @@ export const ServicesPage: React.FC = () => {
                   type="button"
                   onClick={() =>
                     openImageModal(
-                      '/844278059_122110127211497741_6854398682803496698_n.jpg',
+                      '/images/upload/844278059_122110127211497741_6854398682803496698_n.jpg',
                       'Commercial Cleaning Flyer',
                       'Offices • Banks • Churches • Medical & Dental Offices',
                       'Keeping your business clean so you can focus on what matters.'
@@ -260,7 +260,7 @@ export const ServicesPage: React.FC = () => {
             <div className="lg:col-span-5 flex flex-col items-center order-1 lg:order-2">
               <div className="relative rounded-2xl overflow-hidden border border-[#C89B53]/40 shadow-xl group bg-white max-w-sm">
                 <img
-                  src="/825351791_122104740789497741_218258861610752807_n.jpg"
+                  src="/images/upload/825351791_122104740789497741_218258861610752807_n.jpg"
                   alt="Post-Construction Contractor Services Flyer"
                   className="w-full h-auto object-cover"
                   referrerPolicy="no-referrer"
@@ -269,7 +269,7 @@ export const ServicesPage: React.FC = () => {
                   type="button"
                   onClick={() =>
                     openImageModal(
-                      '/825351791_122104740789497741_218258861610752807_n.jpg',
+                      '/images/upload/825351791_122104740789497741_218258861610752807_n.jpg',
                       'Post-Construction Services Flyer',
                       'From Construction to Completion... We Make it Shine.',
                       'Full 10-point contractor turnover protocols for home builders & developers.'
@@ -297,7 +297,7 @@ export const ServicesPage: React.FC = () => {
             <div className="lg:col-span-5 flex flex-col items-center">
               <div className="relative rounded-2xl overflow-hidden border border-[#C89B53]/40 shadow-xl group bg-[#FAF8F5] max-w-sm">
                 <img
-                  src="/825350966_2227129678225297_3306893046972007862_n.jpg"
+                  src="/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg"
                   alt="Palm & Pearl Fleet at Waterfront Estate"
                   className="w-full h-auto object-cover"
                   referrerPolicy="no-referrer"
@@ -306,7 +306,7 @@ export const ServicesPage: React.FC = () => {
                   type="button"
                   onClick={() =>
                     openImageModal(
-                      '/825350966_2227129678225297_3306893046972007862_n.jpg',
+                      '/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg',
                       'Kayla & The Palm & Pearl Fleet',
                       'Waterfront Estate Service in Southwest Florida',
                       'Branded company vehicles on site at a coastal luxury home in Southwest Florida.'
@@ -452,7 +452,7 @@ export const ServicesPage: React.FC = () => {
             <div className="lg:col-span-4 flex justify-center">
               <div className="w-64 h-64 rounded-full bg-[#FAF8F5] p-2 border-2 border-[#DFBA73] shadow-2xl flex items-center justify-center">
                 <img
-                  src="/825350970_2227129271558671_4729667765504210952_n.jpg"
+                  src="/images/upload/825350970_2227129271558671_4729667765504210952_n.jpg"
                   alt="Palm & Pearl Emblem"
                   className="w-full h-full object-contain rounded-full"
                   referrerPolicy="no-referrer"

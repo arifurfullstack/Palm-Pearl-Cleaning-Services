@@ -83,11 +83,11 @@ export const CoFoundersInteractiveCard: React.FC<CoFoundersInteractiveCardProps>
           {/* Avatar Face Snippet */}
           <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-[#DFBA73] shadow-md flex-shrink-0 bg-white">
             <img
-              src="/images/cofounders-faces-crop.svg"
+              src="/images/upload/cofounders-faces-crop.svg"
               alt="Kayla and Co-Founder face snippet"
               className="w-full h-full object-cover"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = '/825350966_2227129678225297_3306893046972007862_n.jpg';
+                (e.target as HTMLImageElement).src = '/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg';
               }}
               referrerPolicy="no-referrer"
             />
@@ -148,11 +148,11 @@ export const CoFoundersInteractiveCard: React.FC<CoFoundersInteractiveCardProps>
           }`}
         >
           <img
-            src="/825350966_2227129678225297_3306893046972007862_n.jpg"
+            src="/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg"
             alt="Kayla & Co-Founder with Palm & Pearl Branded SUV Fleet and Luxury Waterfront Home"
             className="w-full h-full object-cover"
             onError={(e) => {
-              (e.target as HTMLImageElement).src = '/images/kayla-team-fleet.svg';
+              (e.target as HTMLImageElement).src = '/images/upload/kayla-team-fleet.svg';
             }}
             referrerPolicy="no-referrer"
           />
@@ -253,7 +253,7 @@ export const CoFoundersInteractiveCard: React.FC<CoFoundersInteractiveCardProps>
                 {/* Face Snippet Thumbnail */}
                 <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#C89B53] shadow-xs flex-shrink-0 bg-white">
                   <img
-                    src="/images/cofounders-faces-crop.svg"
+                    src="/images/upload/cofounders-faces-crop.svg"
                     alt="Kayla face crop"
                     className="w-full h-full object-cover scale-[1.7] translate-x-[-15%] translate-y-[5%]"
                     referrerPolicy="no-referrer"
@@ -287,7 +287,7 @@ export const CoFoundersInteractiveCard: React.FC<CoFoundersInteractiveCardProps>
                 {/* Face Snippet Thumbnail */}
                 <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#C89B53] shadow-xs flex-shrink-0 bg-white">
                   <img
-                    src="/images/cofounders-faces-crop.svg"
+                    src="/images/upload/cofounders-faces-crop.svg"
                     alt="Co-Founder face crop"
                     className="w-full h-full object-cover scale-[1.7] translate-x-[15%] translate-y-[5%]"
                     referrerPolicy="no-referrer"

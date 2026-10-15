@@ -35,15 +35,15 @@ export const BUSINESS_DATA: BusinessInfo = {
       "Community Focused",
       "Licensed & Insured"
     ],
-    image: "/842465995_122105284371497741_6757168991532059581_n.jpg",
-    fleetImage: "/825350966_2227129678225297_3306893046972007862_n.jpg"
+    image: "/images/upload/842465995_122105284371497741_6757168991532059581_n.jpg",
+    fleetImage: "/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg"
   },
   officialAssets: {
-    logoBadge: "/825350970_2227129271558671_4729667765504210952_n.jpg",
-    teamFleet: "/825350966_2227129678225297_3306893046972007862_n.jpg",
-    commercialFlyer: "/844278059_122110127211497741_6854398682803496698_n.jpg",
-    meetKayla: "/842465995_122105284371497741_6757168991532059581_n.jpg",
-    postConstructionFlyer: "/825351791_122104740789497741_218258861610752807_n.jpg"
+    logoBadge: "/images/upload/825350970_2227129271558671_4729667765504210952_n.jpg",
+    teamFleet: "/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg",
+    commercialFlyer: "/images/upload/844278059_122110127211497741_6854398682803496698_n.jpg",
+    meetKayla: "/images/upload/842465995_122105284371497741_6757168991532059581_n.jpg",
+    postConstructionFlyer: "/images/upload/825351791_122104740789497741_218258861610752807_n.jpg"
   },
   hours: {
     weekdays: "Monday – Friday: 7:30 AM – 6:30 PM",
@@ -76,7 +76,7 @@ export const SERVICES_LIST: ServiceItem[] = [
       "Medical & Dental Practices",
       "Boutique Retail & Showrooms"
     ],
-    image: "/844278059_122110127211497741_6854398682803496698_n.jpg"
+    image: "/images/upload/844278059_122110127211497741_6854398682803496698_n.jpg"
   },
   {
     id: "post-construction",
@@ -101,7 +101,7 @@ export const SERVICES_LIST: ServiceItem[] = [
       "Real Estate Flip Completions",
       "Architectural Showrooms & Model Units"
     ],
-    image: "/825351791_122104740789497741_218258861610752807_n.jpg"
+    image: "/images/upload/825351791_122104740789497741_218258861610752807_n.jpg"
   },
   {
     id: "residential",
@@ -126,7 +126,7 @@ export const SERVICES_LIST: ServiceItem[] = [
       "Move-In / Move-Out Transitions",
       "Airbnb & Premium Vacation Rental Owners"
     ],
-    image: "/842465995_122105284371497741_6757168991532059581_n.jpg"
+    image: "/images/upload/842465995_122105284371497741_6757168991532059581_n.jpg"
   },
   {
     id: "final-detailing",
@@ -149,7 +149,7 @@ export const SERVICES_LIST: ServiceItem[] = [
       "Executive Relocations",
       "Special Events & Estate Staging"
     ],
-    image: "/825350970_2227129271558671_4729667765504210952_n.jpg"
+    image: "/images/upload/825350970_2227129271558671_4729667765504210952_n.jpg"
   }
 ];
 

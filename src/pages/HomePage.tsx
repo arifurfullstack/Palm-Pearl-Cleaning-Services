@@ -137,7 +137,7 @@ export const HomePage: React.FC = () => {
                 <div className="relative rounded-2xl overflow-hidden bg-white border border-[#C89B53]/40 shadow-2xl">
                   {/* Official Logo & Service Identity Image */}
                   <img
-                    src="/825350970_2227129271558671_4729667765504210952_n.jpg"
+                    src="/images/upload/825350970_2227129271558671_4729667765504210952_n.jpg"
                     alt="Palm & Pearl Cleaning Services - Official Identity and Services"
                     className="w-full h-auto object-cover"
                     referrerPolicy="no-referrer"
@@ -157,7 +157,7 @@ export const HomePage: React.FC = () => {
                       type="button"
                       onClick={() =>
                         openImageModal(
-                          '/825350970_2227129271558671_4729667765504210952_n.jpg',
+                          '/images/upload/825350970_2227129271558671_4729667765504210952_n.jpg',
                           'Palm & Pearl Official Identity',
                           'Commercial • Post Construction • Residential',
                           'Official brand emblem featuring palm motif, oyster pearl, and high-rise architecture.'
@@ -197,7 +197,7 @@ export const HomePage: React.FC = () => {
           <div className="bg-white rounded-2xl border border-[#C89B53]/30 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
             <div className="relative overflow-hidden bg-[#FAF8F5] aspect-square flex items-center justify-center p-3">
               <img
-                src="/825350970_2227129271558671_4729667765504210952_n.jpg"
+                src="/images/upload/825350970_2227129271558671_4729667765504210952_n.jpg"
                 alt="Palm & Pearl Official Service Identity Badge"
                 className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-102"
                 referrerPolicy="no-referrer"
@@ -206,7 +206,7 @@ export const HomePage: React.FC = () => {
                 type="button"
                 onClick={() =>
                   openImageModal(
-                    '/825350970_2227129271558671_4729667765504210952_n.jpg',
+                    '/images/upload/825350970_2227129271558671_4729667765504210952_n.jpg',
                     'Official Brand Logo & Services',
                     'Commercial • Post Construction • Residential • Final Detailing',
                     'The official Palm & Pearl registered service mark and core service breakdown.'
@@ -241,7 +241,7 @@ export const HomePage: React.FC = () => {
           <div className="bg-white rounded-2xl border border-[#C89B53]/30 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
             <div className="relative overflow-hidden bg-[#FAF8F5] aspect-square flex items-center justify-center p-3">
               <img
-                src="/844278059_122110127211497741_6854398682803496698_n.jpg"
+                src="/images/upload/844278059_122110127211497741_6854398682803496698_n.jpg"
                 alt="Palm & Pearl Commercial Cleaning Flyer"
                 className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-102"
                 referrerPolicy="no-referrer"
@@ -250,7 +250,7 @@ export const HomePage: React.FC = () => {
                 type="button"
                 onClick={() =>
                   openImageModal(
-                    '/844278059_122110127211497741_6854398682803496698_n.jpg',
+                    '/images/upload/844278059_122110127211497741_6854398682803496698_n.jpg',
                     'Commercial Cleaning Services',
                     'Offices • Banks • Churches • Medical & Dental Offices',
                     'Trusted commercial cleaning ensuring sanitized, pristine facilities across Southwest Florida.'
@@ -285,7 +285,7 @@ export const HomePage: React.FC = () => {
           <div className="bg-white rounded-2xl border border-[#C89B53]/30 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
             <div className="relative overflow-hidden bg-[#FAF8F5] aspect-square flex items-center justify-center p-3">
               <img
-                src="/842465995_122105284371497741_6757168991532059581_n.jpg"
+                src="/images/upload/842465995_122105284371497741_6757168991532059581_n.jpg"
                 alt="Meet Owner Kayla - Palm & Pearl Cleaning Services"
                 className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-102"
                 referrerPolicy="no-referrer"
@@ -294,7 +294,7 @@ export const HomePage: React.FC = () => {
                 type="button"
                 onClick={() =>
                   openImageModal(
-                    '/842465995_122105284371497741_6757168991532059581_n.jpg',
+                    '/images/upload/842465995_122105284371497741_6757168991532059581_n.jpg',
                     'Meet the Owner: Kayla',
                     'Family Owned & Operated • Reliable & Trustworthy',
                     'Personal letter from Kayla: "I take pride in leading a company that treats every property like it\'s our own."'
@@ -332,7 +332,7 @@ export const HomePage: React.FC = () => {
           <div
             onClick={() =>
               openImageModal(
-                '/825350966_2227129678225297_3306893046972007862_n.jpg',
+                '/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg',
                 'Kayla & The Palm & Pearl Fleet',
                 'Waterfront Luxury Estate Service in Southwest Florida',
                 'The real Palm & Pearl team and branded company SUV fleet on site at a coastal Florida estate.'
@@ -342,7 +342,7 @@ export const HomePage: React.FC = () => {
           >
             <div className="w-32 h-32 sm:w-36 sm:h-36 rounded-xl overflow-hidden flex-shrink-0 bg-white/10 p-1 border border-[#C89B53]/40">
               <img
-                src="/825350966_2227129678225297_3306893046972007862_n.jpg"
+                src="/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg"
                 alt="Palm & Pearl Branded Vehicle Fleet"
                 className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform"
                 referrerPolicy="no-referrer"
@@ -369,7 +369,7 @@ export const HomePage: React.FC = () => {
           <div
             onClick={() =>
               openImageModal(
-                '/825351791_122104740789497741_218258861610752807_n.jpg',
+                '/images/upload/825351791_122104740789497741_218258861610752807_n.jpg',
                 'Post-Construction Builder & Contractor Services',
                 'From Construction to Completion... We Make it Shine.',
                 'Official builder partner flyer detailing 10-point turnover protocol for general contractors.'
@@ -379,7 +379,7 @@ export const HomePage: React.FC = () => {
           >
             <div className="w-32 h-32 sm:w-36 sm:h-36 rounded-xl overflow-hidden flex-shrink-0 bg-white p-1 border border-[#C89B53]/40">
               <img
-                src="/825351791_122104740789497741_218258861610752807_n.jpg"
+                src="/images/upload/825351791_122104740789497741_218258861610752807_n.jpg"
                 alt="Post-Construction Cleaning Flyer"
                 className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform"
                 referrerPolicy="no-referrer"
@@ -492,7 +492,7 @@ export const HomePage: React.FC = () => {
               <div className="lg:col-span-4 flex justify-center">
                 <div className="relative max-w-xs w-full rounded-2xl overflow-hidden border border-[#C89B53]/40 shadow-md bg-white">
                   <img
-                    src="/842465995_122105284371497741_6757168991532059581_n.jpg"
+                    src="/images/upload/842465995_122105284371497741_6757168991532059581_n.jpg"
                     alt="Kayla - Meet the Owner"
                     className="w-full h-auto object-cover"
                     referrerPolicy="no-referrer"
@@ -501,7 +501,7 @@ export const HomePage: React.FC = () => {
                     type="button"
                     onClick={() =>
                       openImageModal(
-                        '/842465995_122105284371497741_6757168991532059581_n.jpg',
+                        '/images/upload/842465995_122105284371497741_6757168991532059581_n.jpg',
                         'Meet the Owner — Kayla',
                         'Palm & Pearl Cleaning Services',
                         'Personal letter from Kayla: "Treating every property like it\'s our own."'

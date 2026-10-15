@@ -180,11 +180,11 @@ export const Navbar: React.FC = () => {
               >
                 <div className="relative w-11 h-11 rounded-full overflow-hidden border-2 border-[#C89B53] flex-shrink-0 bg-[#FAF8F5]">
                   <img
-                    src="/images/cofounders-faces-crop.svg"
+                    src="/images/upload/cofounders-faces-crop.svg"
                     alt="Kayla & Co-Founder"
                     className="w-full h-full object-cover"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/825350966_2227129678225297_3306893046972007862_n.jpg';
+                      (e.target as HTMLImageElement).src = '/images/upload/825350966_2227129678225297_3306893046972007862_n.jpg';
                     }}
                     referrerPolicy="no-referrer"
                   />

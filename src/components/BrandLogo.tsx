@@ -39,12 +39,11 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
       {/* Official Emblem Avatar */}
       <div className={`relative ${iconSizes[size]} flex-shrink-0 rounded-full overflow-hidden border border-[#C89B53]/40 bg-[#FAF8F5] p-0.5 shadow-sm transition-transform duration-300 group-hover:scale-105`}>
         <img
-          src="/825350970_2227129271558671_4729667765504210952_n.jpg"
+          src="/images/upload/825350970_2227129271558671_4729667765504210952_n.jpg"
           alt="Palm & Pearl Official Monogram Emblem"
           className="w-full h-full object-contain"
           onError={(e) => {
-            // Fallback to internal SVG if file path is altered
-            (e.target as HTMLImageElement).src = '/images/palm-pearl-official-logo.svg';
+            (e.target as HTMLImageElement).src = '/images/upload/palm-pearl-official-logo.svg';
           }}
           referrerPolicy="no-referrer"
         />
