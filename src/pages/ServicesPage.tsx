@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import { SERVICES_LIST, BUSINESS_DATA, CONTRACTOR_CHECKLIST, COMMERCIAL_SECTORS } from '../data/businessData';
 import { ImageModal } from '../components/ImageModal';
+import { OwnersFaceSnippet } from '../components/OwnersFaceSnippet';
 
 export const ServicesPage: React.FC = () => {
   const [activeModal, setActiveModal] = useState<{
@@ -230,6 +231,11 @@ export const ServicesPage: React.FC = () => {
                   <div>Competitive Pricing</div>
                   <div className="text-[9px] text-[#607369] font-normal">Uncompromising Quality</div>
                 </div>
+              </div>
+
+              {/* Owners Personal Accountability Snippet */}
+              <div className="pt-2">
+                <OwnersFaceSnippet />
               </div>
 
               <div className="pt-4 flex flex-wrap gap-4 items-center">

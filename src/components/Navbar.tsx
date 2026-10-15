@@ -173,8 +173,38 @@ export const Navbar: React.FC = () => {
                 ))}
               </nav>
 
+              {/* Co-Founders Face Snippet in Mobile Drawer */}
+              <Link
+                to="/about"
+                className="mt-6 p-3 rounded-2xl bg-[#FFFFFF] border border-[#C89B53]/35 shadow-xs flex items-center gap-3 group hover:border-[#14281D] transition-colors"
+              >
+                <div className="relative w-11 h-11 rounded-full overflow-hidden border-2 border-[#C89B53] flex-shrink-0 bg-[#FAF8F5]">
+                  <img
+                    src="/images/cofounders-faces-crop.svg"
+                    alt="Kayla & Co-Founder"
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = '/825350966_2227129678225297_3306893046972007862_n.jpg';
+                    }}
+                    referrerPolicy="no-referrer"
+                  />
+                  <span className="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border border-white" />
+                </div>
+                <div>
+                  <div className="text-[10px] font-bold uppercase tracking-wider text-[#C89B53]">
+                    Owners &amp; Co-Founders
+                  </div>
+                  <div className="text-xs font-bold text-[#14281D] group-hover:text-[#213D2D]">
+                    Kayla &amp; Leadership
+                  </div>
+                  <div className="text-[10px] text-[#5A6D62]">
+                    Meet the team on site in SW Florida
+                  </div>
+                </div>
+              </Link>
+
               {/* Trust Badge Reminder */}
-              <div className="mt-8 p-4 rounded-xl bg-[#F3EFE6] border border-[#C89B53]/30 text-xs">
+              <div className="mt-4 p-4 rounded-xl bg-[#F3EFE6] border border-[#C89B53]/30 text-xs">
                 <div className="flex items-center gap-2 text-[#14281D] font-bold">
                   <ShieldCheck className="w-4 h-4 text-[#C89B53]" />
                   <span>Licensed &amp; Insured in Florida</span>

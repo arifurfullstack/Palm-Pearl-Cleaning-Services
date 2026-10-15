@@ -21,6 +21,8 @@ import {
 import { BUSINESS_DATA, SERVICES_LIST, COMMERCIAL_SECTORS, TRUST_BADGES, TESTIMONIALS, CONTRACTOR_CHECKLIST } from '../data/businessData';
 import { EstimateCalculator } from '../components/EstimateCalculator';
 import { ImageModal } from '../components/ImageModal';
+import { CoFoundersInteractiveCard } from '../components/CoFoundersInteractiveCard';
+import { OwnersFaceSnippet } from '../components/OwnersFaceSnippet';
 
 export const HomePage: React.FC = () => {
   const [activeModal, setActiveModal] = useState<{
@@ -112,6 +114,11 @@ export const HomePage: React.FC = () => {
                   <span>Request Free Estimate</span>
                   <ArrowRight className="w-3.5 h-3.5 text-[#C89B53]" />
                 </Link>
+              </div>
+
+              {/* Co-Founders Face Snippet Card */}
+              <div className="pt-2 max-w-md mx-auto lg:mx-0">
+                <OwnersFaceSnippet />
               </div>
 
               {/* Location Tag */}
@@ -460,78 +467,87 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* 4. MEET KAYLA (OWNER) SPOTLIGHT */}
+      {/* 4. MEET THE OWNERS & CO-FOUNDERS SPOTLIGHT (INTERACTIVE TWO-PERSON PHOTO) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-[#FAF8F5] rounded-3xl border border-[#C89B53]/40 p-8 sm:p-12 shadow-xl relative overflow-hidden">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            {/* Owner Image & Badges (5 cols) */}
-            <div className="lg:col-span-5 relative flex justify-center">
-              <div className="relative max-w-sm w-full rounded-2xl overflow-hidden border-2 border-[#C89B53]/40 shadow-xl group bg-white">
-                <img
-                  src="/842465995_122105284371497741_6757168991532059581_n.jpg"
-                  alt="Kayla, Owner of Palm & Pearl Cleaning Services"
-                  className="w-full h-auto object-cover"
-                  referrerPolicy="no-referrer"
-                />
-                <button
-                  type="button"
-                  onClick={() =>
-                    openImageModal(
-                      '/842465995_122105284371497741_6757168991532059581_n.jpg',
-                      'Meet the Owner — Kayla',
-                      'Palm & Pearl Cleaning Services',
-                      'Family-owned and operated with pride in Southwest Florida.'
-                    )
-                  }
-                  className="absolute bottom-3 right-3 bg-[#14281D]/90 text-white hover:bg-[#14281D] p-2 rounded-lg text-xs font-bold flex items-center gap-1.5 shadow"
-                >
-                  <Eye className="w-3.5 h-3.5 text-[#DFBA73]" />
-                  <span>Enlarge Flyer</span>
-                </button>
-              </div>
-            </div>
+        <div className="space-y-8">
+          <div className="text-center max-w-3xl mx-auto space-y-2">
+            <span className="text-xs font-bold uppercase tracking-[0.25em] text-[#C89B53] flex items-center justify-center gap-1.5">
+              <Sparkles className="w-3.5 h-3.5" />
+              Real Local Leadership
+            </span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif-luxury font-bold text-[#14281D]">
+              Meet the Owners &amp; Co-Founders
+            </h2>
+            <p className="text-sm sm:text-base text-[#4E6156] leading-relaxed">
+              Palm &amp; Pearl is proudly owned and operated by Kayla and her partner. Click on the pins or toggle faces close-up to explore our fleet and on-site standards.
+            </p>
+          </div>
 
-            {/* Owner Text & Commitment (7 cols) */}
-            <div className="lg:col-span-7 space-y-6">
-              <div className="space-y-1">
-                <span className="text-xs font-bold uppercase tracking-[0.25em] text-[#C89B53]">
-                  Personal Leadership &amp; Accountability
-                </span>
-                <h2 className="text-3xl sm:text-4xl font-serif-luxury font-bold text-[#14281D]">
-                  Meet the Owner — Kayla
-                </h2>
-                <p className="font-script text-2xl sm:text-3xl text-[#C89B53]">
-                  Treating every property like it's our own.
-                </p>
-              </div>
+          {/* Interactive Co-Founders Card with real two-person photo */}
+          <CoFoundersInteractiveCard showFullDetails={true} />
 
-              {/* Bio Quote */}
-              <blockquote className="p-5 rounded-2xl bg-[#F4EFE6] border-l-4 border-[#C89B53] text-[#24352B] italic text-base sm:text-lg leading-relaxed">
-                "{BUSINESS_DATA.owner.bio}"
-              </blockquote>
-
-              {/* 4 Pillars Grid */}
-              <div className="grid grid-cols-2 gap-3 text-xs font-bold text-[#14281D]">
-                {BUSINESS_DATA.owner.pillars.map((pillar, i) => (
-                  <div key={i} className="flex items-center gap-2 p-3 bg-white rounded-xl border border-[#C89B53]/20 shadow-2xs">
-                    <CheckCircle2 className="w-4 h-4 text-[#C89B53] flex-shrink-0" />
-                    <span>{pillar}</span>
-                  </div>
-                ))}
-              </div>
-
-              {/* Handwritten Note Callout */}
-              <div className="flex flex-col sm:flex-row items-center justify-between pt-2 gap-4">
-                <div className="font-script text-2xl sm:text-3xl text-[#14281D]">
-                  Thanks for supporting our small business! ♡
+          {/* Secondary Personal Letter Banner with Kayla's Flyer */}
+          <div className="bg-[#FAF8F5] rounded-3xl border border-[#C89B53]/35 p-6 sm:p-10 shadow-lg">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-4 flex justify-center">
+                <div className="relative max-w-xs w-full rounded-2xl overflow-hidden border border-[#C89B53]/40 shadow-md bg-white">
+                  <img
+                    src="/842465995_122105284371497741_6757168991532059581_n.jpg"
+                    alt="Kayla - Meet the Owner"
+                    className="w-full h-auto object-cover"
+                    referrerPolicy="no-referrer"
+                  />
+                  <button
+                    type="button"
+                    onClick={() =>
+                      openImageModal(
+                        '/842465995_122105284371497741_6757168991532059581_n.jpg',
+                        'Meet the Owner — Kayla',
+                        'Palm & Pearl Cleaning Services',
+                        'Personal letter from Kayla: "Treating every property like it\'s our own."'
+                      )
+                    }
+                    className="absolute bottom-2.5 right-2.5 bg-[#14281D]/90 text-white hover:bg-[#14281D] px-2.5 py-1 rounded-md text-[11px] font-bold flex items-center gap-1 shadow"
+                  >
+                    <Eye className="w-3 h-3 text-[#DFBA73]" />
+                    <span>View Flyer</span>
+                  </button>
                 </div>
-                <Link
-                  to="/about"
-                  className="inline-flex items-center gap-2 bg-[#14281D] text-[#FAF8F5] hover:bg-[#213D2D] px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all shadow"
-                >
-                  <span>Read Full Story</span>
-                  <ArrowRight className="w-3.5 h-3.5 text-[#DFBA73]" />
-                </Link>
+              </div>
+
+              <div className="lg:col-span-8 space-y-4">
+                <div className="space-y-1">
+                  <span className="text-xs font-bold uppercase tracking-wider text-[#C89B53]">Personal Commitment</span>
+                  <h3 className="font-serif-luxury font-bold text-2xl sm:text-3xl text-[#14281D]">
+                    "We Treat Every Property Like It's Our Own."
+                  </h3>
+                </div>
+
+                <blockquote className="p-4 sm:p-5 rounded-xl bg-white border-l-4 border-[#C89B53] text-[#24352B] italic text-sm sm:text-base leading-relaxed shadow-2xs">
+                  "{BUSINESS_DATA.owner.bio}"
+                </blockquote>
+
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-[11px] font-bold text-[#14281D]">
+                  {BUSINESS_DATA.owner.pillars.map((pillar, i) => (
+                    <div key={i} className="p-2.5 bg-white rounded-lg border border-[#C89B53]/25 flex items-center gap-1.5 shadow-2xs">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-[#C89B53] flex-shrink-0" />
+                      <span className="line-clamp-1">{pillar}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-3">
+                  <div className="font-script text-2xl text-[#14281D]">
+                    Thanks for supporting our small business! ♡
+                  </div>
+                  <Link
+                    to="/about"
+                    className="inline-flex items-center gap-2 bg-[#14281D] hover:bg-[#213D2D] text-white px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider shadow"
+                  >
+                    <span>Read Full Story</span>
+                    <ArrowRight className="w-3.5 h-3.5 text-[#DFBA73]" />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

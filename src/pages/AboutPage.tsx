@@ -18,6 +18,8 @@ import {
 } from 'lucide-react';
 import { BUSINESS_DATA, TRUST_BADGES } from '../data/businessData';
 import { ImageModal } from '../components/ImageModal';
+import { CoFoundersInteractiveCard } from '../components/CoFoundersInteractiveCard';
+import { OwnersFaceSnippet } from '../components/OwnersFaceSnippet';
 
 export const AboutPage: React.FC = () => {
   const [activeModal, setActiveModal] = useState<{
@@ -159,93 +161,76 @@ export const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      {/* 2. THE BRANDED FLEET & SOUTHWEST FLORIDA ROOTS */}
+      {/* 2. THE CO-FOUNDERS & BRANDED FLEET (INTERACTIVE REAL PHOTO & HOTSPOTS) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-[#FAF8F5] rounded-3xl border border-[#C89B53]/30 p-8 sm:p-14 shadow-xl">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            {/* Text details */}
-            <div className="lg:col-span-7 space-y-6">
-              <span className="text-xs font-bold uppercase tracking-[0.25em] text-[#C89B53]">
-                Professional Operations
-              </span>
-              <h2 className="text-3xl sm:text-4xl font-serif-luxury font-bold text-[#14281D]">
-                Our Fleet, Equipment &amp; Standards
-              </h2>
+        <div className="space-y-6">
+          <div className="text-center max-w-3xl mx-auto space-y-2">
+            <span className="text-xs font-bold uppercase tracking-[0.25em] text-[#C89B53] flex items-center justify-center gap-1.5">
+              <Sparkles className="w-3.5 h-3.5" />
+              On-Site Leadership
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-serif-luxury font-bold text-[#14281D]">
+              Co-Founders &amp; The Branded Fleet
+            </h2>
+            <p className="text-sm text-[#4E6156] leading-relaxed">
+              Explore the real faces behind Palm &amp; Pearl. Click hotspot pins to discover our vehicle standards, crew training, and estate protocols.
+            </p>
+          </div>
+
+          {/* Interactive Card */}
+          <CoFoundersInteractiveCard showFullDetails={true} />
+
+          {/* Standards & Operations Details */}
+          <div className="bg-[#FAF8F5] rounded-3xl border border-[#C89B53]/30 p-8 sm:p-12 shadow-md">
+            <div className="max-w-3xl mx-auto space-y-4 text-center sm:text-left">
+              <h3 className="font-serif-luxury font-bold text-2xl text-[#14281D]">
+                Our Fleet, Equipment &amp; Operational Standards
+              </h3>
               <p className="text-sm text-[#4E6156] leading-relaxed">
                 When Palm &amp; Pearl arrives at your jobsite or estate, you'll see our branded company SUVs equipped with commercial-grade HEPA extraction systems, color-coded microfiber sanitization protocols, and non-toxic formulas.
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-3">
                 <div className="p-4 bg-white rounded-xl border border-[#C89B53]/20 space-y-1">
                   <div className="font-bold text-xs text-[#14281D] flex items-center gap-1.5">
                     <Truck className="w-4 h-4 text-[#C89B53]" />
-                    <span>Company-Owned Fleet</span>
+                    <span>Company Fleet</span>
                   </div>
                   <p className="text-[11px] text-[#607369]">
-                    No unmarked personal cars. Fully identified Palm &amp; Pearl black SUVs with licensed staff.
+                    Fully identified Palm &amp; Pearl black SUVs with licensed staff.
                   </p>
                 </div>
 
                 <div className="p-4 bg-white rounded-xl border border-[#C89B53]/20 space-y-1">
                   <div className="font-bold text-xs text-[#14281D] flex items-center gap-1.5">
                     <Leaf className="w-4 h-4 text-[#C89B53]" />
-                    <span>Eco-Friendly Formulations</span>
+                    <span>Eco-Friendly</span>
                   </div>
                   <p className="text-[11px] text-[#607369]">
-                    Green certified cleaning upon request, keeping Florida waterways and your family safe.
+                    Green certified cleaning safe for families &amp; Florida waters.
                   </p>
                 </div>
 
                 <div className="p-4 bg-white rounded-xl border border-[#C89B53]/20 space-y-1">
                   <div className="font-bold text-xs text-[#14281D] flex items-center gap-1.5">
                     <ShieldCheck className="w-4 h-4 text-[#C89B53]" />
-                    <span>$1M+ Liability Protection</span>
+                    <span>$1M+ Liability</span>
                   </div>
                   <p className="text-[11px] text-[#607369]">
-                    Full certificates of insurance provided immediately to builders and corporate clients.
+                    Full certificates of insurance for builders &amp; commercial clients.
                   </p>
                 </div>
 
                 <div className="p-4 bg-white rounded-xl border border-[#C89B53]/20 space-y-1">
                   <div className="font-bold text-xs text-[#14281D] flex items-center gap-1.5">
                     <Award className="w-4 h-4 text-[#C89B53]" />
-                    <span>Satisfaction Guarantee</span>
+                    <span>Gold Standard</span>
                   </div>
                   <p className="text-[11px] text-[#607369]">
-                    If any detail falls short of perfection, we return within 24 hours to resolve it.
+                    Prompt resolution guarantee if any detail falls short.
                   </p>
                 </div>
               </div>
-            </div>
-
-            {/* Visual Asset: Fleet photo */}
-            <div className="lg:col-span-5 flex flex-col items-center">
-              <div className="relative rounded-2xl overflow-hidden border-2 border-[#C89B53]/40 shadow-2xl group bg-white max-w-sm w-full">
-                <img
-                  src="/825350966_2227129678225297_3306893046972007862_n.jpg"
-                  alt="Kayla and the Palm & Pearl Branded Vehicle Fleet"
-                  className="w-full h-auto object-cover"
-                  referrerPolicy="no-referrer"
-                />
-                <button
-                  type="button"
-                  onClick={() =>
-                    openImageModal(
-                      '/825350966_2227129678225297_3306893046972007862_n.jpg',
-                      'Kayla & The Palm & Pearl Fleet',
-                      'Serving Cape Coral, Fort Myers & SW Florida',
-                      'The real Palm & Pearl team and branded SUV fleet on site at a coastal Florida estate.'
-                    )
-                  }
-                  className="absolute bottom-3 right-3 bg-[#14281D] hover:bg-[#213D2D] text-[#DFBA73] px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 shadow"
-                >
-                  <Eye className="w-3.5 h-3.5" />
-                  <span>Enlarge Fleet Photo</span>
-                </button>
-              </div>
-              <span className="text-xs text-[#63756C] mt-2 font-medium">
-                Kayla &amp; Team with the Palm &amp; Pearl Fleet
-              </span>
             </div>
           </div>
         </div>
